@@ -1,0 +1,18 @@
+﻿  HuffmanTreeTest.cpp
+D:\My projects\VS repos\HuffmanTree\DoubleLinkedList.cpp(76,14): warning C4018: <: несоответствие типов со знаком и без знака
+D:\My projects\VS repos\HuffmanTree\DoubleLinkedList.cpp(70): message : во время компиляции функции-члена класс шаблон "K List<K>::at(size_t) const"
+          with
+          [
+              K=char
+          ]
+D:\My projects\VS repos\HuffmanTree\Main.cpp(90): message : выполняется компиляция ссылки на экземпляр шаблон функции "K List<K>::at(size_t) const"
+          with
+          [
+              K=char
+          ]
+D:\My projects\VS repos\HuffmanTree\Main.cpp(87): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "List<T>"
+          with
+          [
+              T=char
+          ]
+  HuffmanTreeTest.vcxproj -> D:\My projects\VS repos\HuffmanTree\Debug\HuffmanTreeTest.dll
